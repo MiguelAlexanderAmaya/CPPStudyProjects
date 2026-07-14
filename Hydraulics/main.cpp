@@ -23,5 +23,7 @@ int main()
 	cout << "Write the velocity(m/s):" << endl;
 	cin >> velocity;
 	horizontal_force = flow_rate * velocity;
+	cout << "The horizontal force is: " << endl
+		 << horizontal_force << "N" << endl;
     return 0;
 }
