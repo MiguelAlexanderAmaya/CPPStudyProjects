@@ -15,8 +15,8 @@ using namespace std;
 
 int main()
 {
-    float flow_rate;
-	float velocity;
-	float horizontal_force;
+    float flow_rate;		// Mass flow rate;						Kg/s
+	float velocity;			// Velocity entering;					m/s
+	float horizontal_force;	// Horizontal forced exerted on pipe;	N
     return 0;
 }
