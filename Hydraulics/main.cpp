@@ -19,6 +19,8 @@ int main()
 	float velocity;			// Velocity entering;					m/s
 	float horizontal_force;	// Horizontal forced exerted on pipe;	N
     cout << "Write the flow rate(Kg/s): " << endl;
+	cin >> flow_rate;
 	cout << "Write the velocity(m/s):" << endl;
+	cin >> velocity;
     return 0;
 }
