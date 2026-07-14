@@ -15,5 +15,8 @@ using namespace std;
 
 int main()
 {
+    float flow_rate;
+	float velocity;
+	float horizontal_force;
     return 0;
 }
