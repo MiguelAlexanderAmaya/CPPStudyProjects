@@ -7,9 +7,9 @@ All programs were compiled using a Bash script
 
 FILE="$1"
 
-g++ -std=c++17 -g -rdynamic -o2 -march=native -Wall -o Program $FILE
+g++ -std=c++17 -g -rdynamic -o2 -march=native -Wall -o Program.out $FILE
 
-chmod +x Program
+chmod +x Program.out
 
-./Program
+./Program.out
 ```
